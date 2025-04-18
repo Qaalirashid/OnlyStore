@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "name": "Sweet",
+        "price": 50,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0073.jpg"
+    },    
+    {
+        "id": 2,
+        "name": "Sweet",
+        "price": 120,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0077.jpg"
+    },  
+    {
+        "id": 3,
+        "name": "Sweet",
+        "price": 150,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0076.jpg"
+    },      
+    {
+        "id": 4,
+        "name": "Sweet",
+        "price": 300,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0074.jpg"
+    },       
+    {
+        "id": 5,     
+        "name": "Sweet",
+        "price": 70,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0073.jpg"
+    },                 
+    {
+        "id": 6,
+        "name": "Sweet",
+        "price": 100,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0072.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Sweet",
+        "price": 120,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0071.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sweet",
+        "price": 120,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250107-WA0081.jpg"
+    },  
+    {
+        "id": 9,
+        "name": "Sweet",
+        "price": 120,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0009.jpg"
+    }, 
+    {
+        "id": 10,
+        "name": "Sweet",
+        "price": 120,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0012.jpg"
+    }, 
+    {
+        "id": 11,
+        "name": "Sweet",
+        "price": 120,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0011.jpg"
+    }, 
+    {
+        "id": 12,
+        "name": "Dress",
+        "price": 520,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0014.jpg"
+    }, 
+    {
+        "id": 13,
+        "name": "Dress",
+        "price": 400,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0015.jpg"
+    }, 
+    {
+        "id": 14,
+        "name": "Dress",
+        "price": 250,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0006.jpg"
+    }, 
+    {
+        "id": 15,
+        "name": "Dress",
+        "price": 399,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0017.jpg"
+    }, 
+    {
+        "id": 16,
+        "name": "Dress",
+        "price": 500,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0007.jpg"
+    }, 
+    {
+        "id": 17,
+        "name": "Dress",
+        "price": 200,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/IMG-20250204-WA0019.jpg"
+    }, 
+    {
+        "id": 18,
+        "name": "Jacket",
+        "price": 1200,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/jacket.jpg"
+    }, 
+    {
+        "id": 19,
+        "name": "Jacket",
+        "price": 1300,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/jacket5.jpg"
+    }, 
+    {
+        "id": 20,
+        "name": "Jacket",
+        "price": 1500,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/jacket4.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Jacket",
+        "price": 1200,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/jacket3.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Jacket",
+        "price": 1350,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/jacket.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Shirt",
+        "price": 1200,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/shirt3.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Shirt",
+        "price": 1200,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/shirt2.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Shirt",
+        "price": 1200,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/shirt.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Jacket",
+        "price": 1500,
+        "description": "Very sweet made with Cococnut",
+        "image": "images/jacket.jpg"
+    }
+]

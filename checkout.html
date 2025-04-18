@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/burger_menu-512.webp" class="menuIcon">
+            <div class="logo flex-div"> <div class="only">Only</div>Store</div>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <img src="images/search-svgrepo-com.svg">
+            </div>
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/avatar.png" class="user-icon">
+            <div class="iconCart">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M4 4a1 1 0 0 1 1-1h1.5a1 1 0 0 1 .979.796L7.939 6H19a1 1 0 0 1 .979 1.204l-1.25 6a1 1 0 0 1-.979.796H9.605l.208 1H17a3 3 0 1 1-2.83 2h-2.34a3 3 0 1 1-4.009-1.76L5.686 5H5a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    
+    <!---------------------- sidebar --------------------->
+    
+    <div class="sidebar">
+    <div class="account">
+        <a href="userAccount.html"><img src="images/avatar.png"><p>My Account</p></a>
+        <hr>
+        <a href="">Liked</a>
+        <a href="UserOrders.html">My Orders</a>
+        <hr>
+    </div>
+    <div class="categories">
+        <div class="category-links">Categories</div>
+        <a href="allProducts.html">All</a>
+        <a href="homeProducts.html">Home</a>
+        <a href="kitchenProducts.html">Kitchen</a>
+        <a href="phones.html">Phones</a>
+        <a href="refubrishedPhones.html">Refubrished Phones</a>
+        <a href="beauty.html">Beauty</a>
+        <a href="womenClothes.html">Women's Clothes</a>
+        <a href="menClothes.html">Men's Clothes</a>
+        <a href="womenShoes.html">Women's Shoes</a>
+    </div>
+    <div class="help">
+        <hr>
+        <a href="">Help</a>
+        <a href="">Contact Us</a>
+    </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="checkoutLayout">
+
+        
+            <div class="returnCart">
+
+                <h1>Checkout</h1>
+                <div class="user-details">
+                    <div class="name">
+                        <h6>Name:</h6>
+                        <div class="userName">User Name</div>
+                    </div>
+                    <div class="phoneNumber">
+                        <h6>Phone Number:</h6>
+                        <div class="userNumber">07xxxxxxxx</div>
+                    </div>
+                    <div class="userLocation">
+                        <h6>Location:</h6>
+                        <div class="userLocation1">User Location</div>
+                    </div>
+                </div>
+
+
+                <h1>Products in Cart</h1>
+                <div class="list">
+    
+                    <div class="item">
+                        <img src="images/1.webp">
+                        <div class="info">
+                            <div class="name">PRODUCT 1</div>
+                            <div class="price">$22/1 product</div>
+                        </div>
+                        <div class="quantity">5</div>
+                        <div class="returnPrice">$433.3</div>
+                    </div>
+                </div>
+                
+                <div class="return">
+                    <div class="row">
+                        <div>Total Quantity:</div>
+                        <div class="totalQuantity">0</div>
+                    </div>
+                    <div class="row">
+                        <div>Total Price:</div>
+                        <div class="totalPrice">Ksh 0</div>
+                    </div>
+                </div>
+            
+           <button class="buttonCheckout">Confirm Order</button>
+        </div>
+
+     </div>
+    </div> 
+
+    
+
+    <script src="checkout.js"></script>
+
+</body>
+</html>

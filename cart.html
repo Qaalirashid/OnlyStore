@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <div class="header flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/burger_menu-512.webp" class="menuIcon">
+            <div class="logo flex-div"> <div class="only">Only</div>Store</div>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box">
+                <input type="text" placeholder="Search" >
+                <img src="images/search-svgrepo-com.svg">
+            </div>
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/avatar.png" class="user-icon">
+            <div class="iconCart">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M4 4a1 1 0 0 1 1-1h1.5a1 1 0 0 1 .979.796L7.939 6H19a1 1 0 0 1 .979 1.204l-1.25 6a1 1 0 0 1-.979.796H9.605l.208 1H17a3 3 0 1 1-2.83 2h-2.34a3 3 0 1 1-4.009-1.76L5.686 5H5a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
+                </svg>
+                <div class="totalQuantity">
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="account">
+            <div class="close">&times;</div>
+            <a href="userAccount.html"><p>My Account</p></a>
+            <hr>
+            <a href="">Liked</a>
+            <a href="">My Orders</a>
+            <hr>
+        </div>
+        <div class="categories">
+            <div class="category-links">Categories</div>
+            <a href="allProducts.html">All</a>
+            <a href="homeProducts.html">Home</a>
+            <a href="">Kitchen</a>
+            <a href="">Phones</a>
+            <a href="">Refubrished Phones</a>
+            <a href="">Beauty</a>
+            <a href="">Women's Clothes</a>
+            <a href="">Men's Clothes</a>
+            <a href="">Women's Shoes</a>
+        </div>
+        <div class="help">
+            <hr>
+            <a href="">Help</a>
+            <a href="">Contact Us</a>
+        </div>
+       </div>
+    
+
+
+
+<!----------------------- Cart --------------------->
+
+
+<div class="container">
+
+       <div class="signup">
+        <div class="form">
+            <div class="closeBtn">&times;</div>
+           <h5>Sign Up</h5>
+           <div class="form-element">
+               <label for="email">Email</label>
+               <input type="text" id="email" placeholder="Enter email">
+           </div>
+           <div class="form-element">
+            <label for="nuumber">Phone Number</label>
+            <input type="text" id="phoneNumber" placeholder="Enter phone number">
+        </div>
+           <div class="form-element">
+               <label for="password">Password</label>
+               <input type="text" id="password" placeholder="Enter password">
+           </div>
+           <div class="form-element">
+               <input type="checkbox" id="remember-me">
+               <label for="remember-me">Remember me</label>
+           </div>
+           <div class="form-element">
+               <button class="continue1">Continue</button>
+           </div>
+           <div class="form-element">
+               <a href="#"></a>
+           </div>
+        </div>
+      </div>
+    
+      <div class="code">
+        <div class="form">
+           <h5>We have sent a code to your phone number.</h5>
+           <div class="form-element">
+            <label for="code">Enter Code</label>
+            <input type="text" id="code" placeholder="123456">
+           </div>
+           <div class="form-element">
+               <button class="continue2">Continue</button>
+           </div>
+           <div class="form-element">
+             <a href="#"></a>
+          </div> 
+        </div>
+      </div>
+
+      <div class="location1">
+        <div class="form">
+           <h5>Choose your location.</h5>
+           <div class="form-element">
+            <label for="city">Location</label>
+            <select name="city" id="city">
+                <option value="">Choose..</option>
+                <option value="">Komarock, Kayole, Saika</option>
+                <option value="">Nasra, Donholm, Umoja</option>
+            </select>
+           </div>
+           <div class="form-element">
+             <a href="checkout.html">
+                 <button class="continueAccount">Continue</button>
+             </a>
+              
+           </div>
+           <div class="form-element">
+             <a href="#"></a>
+          </div> 
+        </div>
+      </div>
+
+
+    <div class="cart">
+        <h2>
+            CART
+        </h2>
+    
+        <div class="listCart">
+    
+    
+            <div class="item">
+                <img src="">
+                <div class="content">
+                    <div class="name"></div>
+                    <div class="price"></div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value">3</span>
+                    <button>+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="return">
+            <div class="row">
+                <div>Total Quantity</div>
+                <div class="totalQuantity">70</div>
+            </div>
+            <div class="row">
+                <div>Subtotal</div>
+                <div class="totalPrice">Ksh 0</div>
+            </div>
+        </div>
+    
+        <div class="buttons">
+             <button class="close"></button>
+                <div class="checkout">
+                  Checkout
+                </div>
+        </div>
+    </div>
+    <div class="suggested">
+        <div class="foryou">
+            <h4>Suggested For You</h4>
+            <a href="">See All</a>
+        </div>
+        <div class="listProduct"></div>
+    </div>
+ 
+</div>
+
+    
+
+     <script src="cart.js"></script>
+
+</body>
+</html>
